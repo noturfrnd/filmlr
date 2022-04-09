@@ -3,6 +3,7 @@ import { GlobalContext } from "../context/GlobalState";
 import MinhaLista from "./MinhaLista";
 
 export const Watched = () => {
+    // pega a lista de Assistidos do GlobalContext
     const {watched} = useContext(GlobalContext);
     return(
         <div className="movie-page">

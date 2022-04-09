@@ -2,6 +2,7 @@ import React from "react";
 import MovieControls from "./MovieControls";
 
 export const MinhaLista = ({filme, type}) =>{
+    // metodo para carregar as imagem dos fimes e <MovieControls carrega os componentes do Arquivo MovieControls.js
     return(
         <div className="movie-card">
             <div className="overlay"></div>

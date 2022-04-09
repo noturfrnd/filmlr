@@ -5,6 +5,7 @@ import { MinhaLista } from "./MinhaLista";
 import MovieControls from "./MovieControls";
 
 export const WatchList = () => {
+    // pegando a lista de assistir do GlobalContext
     const {watchlist} = useContext(GlobalContext);
     return(
         <div className="movie-page">

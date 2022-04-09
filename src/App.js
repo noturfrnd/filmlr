@@ -6,6 +6,8 @@ import Watched from './components/Watched';
 import Add from './components/Add';
 import { GlobalProvider } from './context/GlobalState';
 
+// Rotas usadas para mudar entre as paginas ++++GlobalProvider para armazenar dados na aplicaçao -watchlist and watched
+
 function App() {
   return (
     <GlobalProvider>
